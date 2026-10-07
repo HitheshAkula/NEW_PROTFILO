@@ -46,11 +46,11 @@ const jetBrainsMono = localFont({
 export const metadata: Metadata = {
   title: 'Hithesh Akula — Portfolio',
   description: 'Personal portfolio built from the résumé and intro video.',
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   openGraph: {
     title: 'Hithesh Akula — Portfolio',
     description: 'Personal portfolio built from the résumé and intro video.',
-    images: ['/og.jpg'],
+    images: [`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/og.jpg`],
   },
 };
 
