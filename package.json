@@ -15,7 +15,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.1.1",
     "@fontsource/instrument-serif": "^5.1.1",
     "lenis": "^1.3.13",
-    "next": "15.1.6",
+    "next": "15.1.11",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "simple-icons": "^16.34.0"
